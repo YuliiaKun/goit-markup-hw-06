@@ -899,6 +899,10 @@ textarea::placeholder {
   border-radius: 2px;
   margin-right: 8px;
 }
+.checkbox:checked + .checkbox-icon {
+  background-color: var(--accent-color);
+  border: 0;
+}
 
 .checkbox-text {
   font-weight: 400;
