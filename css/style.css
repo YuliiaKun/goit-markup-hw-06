@@ -809,22 +809,25 @@ nav {
 
 .form-field {
   display: flex;
-
   flex-direction: column;
   margin-bottom: 10px;
-}
 
-.group {
   position: relative;
-  width: transparent;
 }
 
 .form-field input {
   padding: 12px 42px;
 }
 
+.form-comments {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 textarea {
   padding: 16px 12px;
+  resize: none;
 }
 
 textarea::placeholder {
@@ -866,9 +869,9 @@ textarea::placeholder {
 .form-icon {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 12px;
 
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 
   display: inline-block;
   fill: var(--txt-title-color);
@@ -924,4 +927,8 @@ textarea::placeholder {
   border: 0;
 
   cursor: pointer;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
