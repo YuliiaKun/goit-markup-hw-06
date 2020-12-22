@@ -912,6 +912,11 @@ textarea::placeholder {
   color: var(--txt-primery-color);
 }
 
+.checkbox-text a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
 .form-button {
   display: flex;
   padding: 10px 55px;
