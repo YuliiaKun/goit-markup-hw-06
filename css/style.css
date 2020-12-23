@@ -868,10 +868,10 @@ textarea::placeholder {
 
 .form-icon {
   position: absolute;
-  top: 50%;
+  top: 69%;
   left: 12px;
 
-  /* transform: translateY(-50%); */
+  transform: translateY(-69%);
 
   display: inline-block;
   fill: var(--txt-title-color);
