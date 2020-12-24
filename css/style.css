@@ -560,6 +560,8 @@ nav {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+
+  color: var(--primery-white-color);
 }
 
 .footer-input::placeholder {
