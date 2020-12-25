@@ -766,6 +766,7 @@ nav {
 }
 
 .close-button {
+  outline: none;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -937,6 +938,7 @@ textarea::placeholder {
 }
 
 .form-button {
+  outline: none;
   display: flex;
   padding: 10px 55px;
 
